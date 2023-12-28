@@ -25,6 +25,7 @@ username = config['Telegram']['username']
 # Create the client and connect
 client = TelegramClient(username, api_id, api_hash)
 
+
 def create_message(message: Message):
     textWithUrls = message.message
     urls = list(filter(lambda x: isinstance(x, MessageEntityTextUrl), message.entities))

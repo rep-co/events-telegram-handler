@@ -1,4 +1,4 @@
-from Price import Price
+from models.Price import Price
 
 
 class Event:
