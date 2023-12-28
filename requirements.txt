@@ -1,0 +1,2 @@
+openai==1.6.1
+telethon==1.33.0
